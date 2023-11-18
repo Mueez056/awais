@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+    </head>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: burlywood;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .back button{
+            cursor: pointer;
+        }
+        #submit{
+            cursor: pointer;
+        }
+        .tt{
+            height: 20px;
+            width: 200px;
+        }
+        #password{
+            margin-left: 50px;
+        }
+    </style>
+    <body>
+        <h1>Login</h1>
+        <div>
+            <label for="username">username or email:</label>
+            <input type="text" class="tt" id="username" name="username" required><br><br>
+        </div>
+        <div>
+            <label for="password">password:</label>
+            <input type="text" class="tt" id="passowrd" name="passowrd" required><br><br>
+        </div>
+        <div>
+            <input type="submit" id="submit" value="login">
+            <a class="back" href="index.html" style="cursor: pointer;"><button>back to home</button></a>
+        </div>
+    </body>
+</html>
